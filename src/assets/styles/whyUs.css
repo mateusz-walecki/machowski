@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+
+
+.explanation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 4rem;
+}
+.box-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: auto auto 50px auto;
+    padding: 16px;  
+}
+.box2 {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 240px;
+    overflow: auto;
+    border-radius: 4px;
+    margin: 16px; 
+    background: rgb(16, 7, 182);
+    background: linear-gradient(41deg, 
+                rgb(2, 0, 36) 0%, rgb(180, 173, 196) 0%, 
+                rgba(8, 5, 107, 0.04) 0%);
+    }
+.box3{
+    align-items: flex-end;
+    width:150px;
+    height: 100px;
+}
+.description{    
+    font-size: 16px;
+    line-height: 1.4em;
+    text-align: center;
+    color: black;  
+    margin: 10px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .box2 {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 240px;
+        overflow: auto;
+        border-radius: 4px;
+        margin: 16px; 
+        background: rgb(16, 7, 182);
+        background: linear-gradient(41deg, 
+                    rgb(2, 0, 36) 0%, rgb(180, 173, 196) 0%, 
+                    rgba(8, 5, 107, 0.04) 0%);
+        }
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header nav {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+    z-index: 1;
+  }
+
+  header .responsive_nav {
+    transform: translateY(100vh);
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+}
