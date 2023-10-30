@@ -11,7 +11,7 @@ function App() {
     <body>
       <main class="main">
        
-        <section>
+        <section >
           <ImageOne />
           <WhyUs />          
           <ImageTwo />

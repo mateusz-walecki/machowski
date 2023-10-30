@@ -7,72 +7,65 @@
   font-family: "Titillium Web", sans-serif;
 }
 
-
-
 .explanation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
   min-height: 100vh;
+  width: 100%;
 }
 
 .title {
   font-size: 4rem;
 }
-.box-1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 1200px;
-    margin: auto auto 50px auto;
-    padding: 16px;  
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
 }
 .box2 {
-    display: inline-block;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 340px;
+  width: 100%;
+  overflow: auto;
+  border-radius: 4px;
+  margin-top: 16px;
+  height: 300px;
+}
+.box3 {
+  align-items: flex-end;
+  width: 100%;
+  height: 100px;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.4em;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .box2 {
+    display: block;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 240px;
+    max-width: 340px;
     overflow: auto;
     border-radius: 4px;
-    margin: 16px; 
-    background: rgb(16, 7, 182);
-    background: linear-gradient(41deg, 
-                rgb(2, 0, 36) 0%, rgb(180, 173, 196) 0%, 
-                rgba(8, 5, 107, 0.04) 0%);
-    }
-.box3{
-    align-items: flex-end;
-    width:150px;
-    height: 100px;
-}
-.description{    
-    font-size: 16px;
-    line-height: 1.4em;
-    text-align: center;
-    color: black;  
-    margin: 10px;
-}
-
-
-
-@media only screen and (max-width: 1024px) {
-    .box2 {
-        display: block;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 240px;
-        overflow: auto;
-        border-radius: 4px;
-        margin: 16px; 
-        background: rgb(16, 7, 182);
-        background: linear-gradient(41deg, 
-                    rgb(2, 0, 36) 0%, rgb(180, 173, 196) 0%, 
-                    rgba(8, 5, 107, 0.04) 0%);
-        }
+    margin: 16px;
+   
+  }
   header .nav-btn {
     visibility: visible;
     opacity: 1;
