@@ -16,7 +16,7 @@ function Navbar() {
 			<h3>LOGO</h3>
 			<nav ref={navRef}>
 				<a href="/#">HOME</a>
-				<a href="/#">FIRMA</a>
+				<a href="/#explanation">FIRMA</a>
 				<a href="/#">OFERTA</a>
 				<a href="/#">KONTAKT</a>
                 <a href="/#">KLIENCI</a>

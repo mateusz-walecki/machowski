@@ -64,7 +64,6 @@ nav {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
-		
 	}
 
 	header nav {
@@ -85,12 +84,14 @@ nav {
 
 	header .responsive_nav {
 		transform: translateY(100vh);
+		background-color: rgba(1,0,0,0.6);
 	}
 
 	nav .nav-close-btn {
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
+		background-color: black;
 	}
 
 	nav a {
