@@ -9,13 +9,15 @@ const ImageTwo = () => (
     strength={400}
     bgImageStyle={{ minHeight: "100vh" }}
   >
-    <div className="content2">
-    {/* <span className="titleImageTwo">OFERTA</span> */}
-      <span className="img-txt2">
-        OFERUJEMY KOMPLEKSOWE USŁUGI PROJEKTOWO-DORADCZE W ZAKRESIE
-        KONSTRUOWANIA ORAZ PRODUKCJI POJAZDÓW UŻYTKOWYCH ORAZ KONSTRUKCJI
-        STALOWYCH
-      </span>
+    <div id="offer">
+      <div className="content2">
+        {/* <span className="titleImageTwo">OFERTA</span> */}
+        <span className="img-txt2">
+          OFERUJEMY KOMPLEKSOWE USŁUGI PROJEKTOWO-DORADCZE W ZAKRESIE
+          KONSTRUOWANIA ORAZ PRODUKCJI POJAZDÓW UŻYTKOWYCH ORAZ KONSTRUKCJI
+          STALOWYCH
+        </span>
+      </div>
     </div>
   </Parallax>
 );

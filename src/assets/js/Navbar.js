@@ -17,7 +17,7 @@ function Navbar() {
 			<nav ref={navRef}>
 				<a href="/#">HOME</a>
 				<a href="/#explanation">FIRMA</a>
-				<a href="/#">OFERTA</a>
+				<a href="/#offer">OFERTA</a>
 				<a href="/#">KONTAKT</a>
                 <a href="/#">KLIENCI</a>
 				<button
